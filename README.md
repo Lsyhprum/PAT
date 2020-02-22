@@ -12,11 +12,11 @@
 
 [最大公约数与最小公倍数](https://github.com/Lsyhprum/PAT/tree/master/C1818)
 
-[分数的四则运算]()
+分数的四则运算
 
-[素数](https://github.com/Lsyhprum/PAT/tree/master/B1013)
+[*素数](https://github.com/Lsyhprum/PAT/tree/master/B1013)
 
-[质因子分解]()
+[质因子分解](https://github.com/Lsyhprum/PAT/tree/master/A1059)
 
 [大整数运算]()
 
