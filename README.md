@@ -1,6 +1,6 @@
 # 算法笔记
 
-## [第1章 基本知识]()
+## [第1章 基本知识](https://github.com/Lsyhprum/PAT/blob/master/BASIC.md)
 
 ## 第2章 入门模拟
 
@@ -10,11 +10,11 @@
 
 [简单数学](https://github.com/Lsyhprum/PAT/tree/master/B1019)
 
-[最大公约数与最小公倍数]()
+[最大公约数与最小公倍数](https://github.com/Lsyhprum/PAT/tree/master/C1818)
 
 [分数的四则运算]()
 
-[素数]()
+[素数](https://github.com/Lsyhprum/PAT/tree/master/B1013)
 
 [质因子分解]()
 

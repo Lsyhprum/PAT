@@ -3,10 +3,6 @@
 
 using namespace std;
 
-void is_prime(){
-
-}
-
 int main(){
     int n, m;
     scanf("%d %d", &n, &m);
