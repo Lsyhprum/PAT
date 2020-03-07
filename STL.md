@@ -13,7 +13,9 @@
     8. erase(): 删除单个元素、删除一个区间内所有元素
 
 2. set
-    1. 访问：STL 容器除了 vector 和 string 都不支持 *(it + i)，只能通过 begin/end 迭代
+    1. 访问
+        1.通过下标访问。**若要读入输出整个字符串，只能使用 cin 和 cout。若想使用 printf 输出，需要使用 c_str() 将 string 转换为字符数组**
+        1.STL 容器除了 vector 和 string 都不支持 *(it + i)，只能通过 begin/end 迭代
     2. set 内元素自动递增，且自动去重
     3. find(value): 查找元素并返回迭代器
 
@@ -39,4 +41,8 @@
     4. next_permutation()
     5. fill(): 将容器区间内赋为某个相同的值
     6. sort(首地址，尾地址+1，cmp)
+        1. 易错：左闭右开
+        2. 易错：前两项为地址
+        2. sort 默认从小到大。从小到大，用 <, 从大到小,用 >
+        3. 只有 vector、string、deque 可以sort
     7. lower_bound()/ upper_bound()
