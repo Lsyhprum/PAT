@@ -47,3 +47,40 @@ void insert(node* &root, int x){
 ```
 
 **值得注意的是，实现插入过程中 root 使用了引用 &**
+
+
+### 并查集
+
+并查集是一种维护集合的数据结构，名字分别取自 Union, Find, Set。 并查集产生的每一个集合都是一颗树。
+
+```cpp
+// 初始化
+for(int i = 1; i <= N; i ++>){
+    father[i] = i;
+}
+
+// 查找根结点
+int find(int x){
+    int a = x;
+    while(x != father[x]){    // 寻找根结点
+        x = father[x];
+    }
+
+    while(a != father[a]){
+        int z = a;
+        a = father[a];
+        father[z] = x;
+    }
+    return x;
+}
+
+// 合并
+void Union(int a, int b){
+    int faA = findFather(a);
+    int faB = findFather(b);
+
+    if(faA != faB){
+        father[faA] = faB;
+    }
+}
+```
